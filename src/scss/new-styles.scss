@@ -1,0 +1,21 @@
+$primary-color: rgb(66, 122, 185);
+$secondary-color: #ffffff;
+
+@import 'reset';
+@import 'base';
+@import 'nav';
+@import 'content';
+  
+
+    p {
+        padding-left: 30px;
+        width: 55%;
+        min-width: 550px;
+    }
+    
+    img, video {
+            height: 350px;
+            width: 550px;
+            margin-bottom: 30px;
+    }
+  
